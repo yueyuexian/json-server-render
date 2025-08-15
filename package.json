@@ -4,9 +4,11 @@
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
+        "start": "node server.js",
+        "server": "json-server -s ./src/static ./src/mock/db.json"
     },
     "dependencies": {
+        "axios": "^1.11.0",
         "json-server": "^0.16.3"
     },
     "type": "module",
