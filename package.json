@@ -1,0 +1,16 @@
+{
+    "name": "json-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "server": "json-server --watch src/mock/db.json"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "json-server": "^1.0.0-beta.3"
+    }
+}
